@@ -33,6 +33,7 @@
     "no-console": 0,
     "comma-dangle": 0,
     "react/display-name": 0,
+    "max-len": 0,
     "object-curly-spacing": 0
   }
 }

@@ -32,7 +32,8 @@ if (DEBUG) {
     historyApiFallback: true,
     hot: true,
     stats: {
-      chunks: false
+      chunks: false,
+      colors: true
     },
   }))
   server.use(webpackHotMiddleware(compiler))

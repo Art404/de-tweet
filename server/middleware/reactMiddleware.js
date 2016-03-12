@@ -9,7 +9,7 @@ import routes from '../../client/routes'
 import MobileDetect from 'mobile-detect'
 
 const defaultCookie = '{"firstTime": true}'
-const cookieName = 'boiler404'
+const cookieName = 'detweet'
 const contact404 = '@artnotfound'
 
 function hydrateInitialStore (req) {

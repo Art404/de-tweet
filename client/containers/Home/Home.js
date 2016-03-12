@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router'
 
 class Home extends React.Component {
   static displayName = 'Home'
@@ -6,14 +7,16 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <h1>{'Home Page'}</h1>
-        <p>
-          {`I think that’s a responsibility that I have, to push possibilities, to show people,
-            this is the level that things could be at. So when you get something that has the name
-            Kanye West on it, it’s supposed to be pushing the furthest possibilities.
-            I will be the leader of a company that ends up being worth billions of dollars, because
-            I got the answers. I understand culture. I am the nucleus.`}
-        </p>
+        <div className="Home-inner">
+          <h3>{`Is your Twitter trash? Are you problematic? Basic? Annoying?`}</h3>
+          <p>
+            {`Worry no more! With de-tweet you can delete all those lingering
+              tweets and pave the way to a new, re-branded, you.`}
+          </p>
+          <Link to="/setup" className="Home-get-started">
+            {'GET STARTED ⟶ '}
+          </Link>
+        </div>
       </div>
     )
   }

@@ -1,12 +1,12 @@
+<!-- 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Art404/boiler404/master/boiler404.png" />
+  <img src="https://raw.githubusercontent.com/Art404/de-tweet/master/de-tweet.png" />
 </p>
+-->
 
-# boiler404
+# de-tweet
 
-Isomorphic, React, ES6, Webpack based starter kit for quickly starting web app projects tailored for [art404](http://art404.com).
-
-> Based off a fork of Richard Krawll's [react-starter](https://github.com/richardkall/react-starter)
+Web app that allows you to delete your most recent 3,200 Tweets as exposed by the Twitter API or upload your archive to delete beyond 3,200.
 
 # Usage
 
@@ -14,7 +14,10 @@ Isomorphic, React, ES6, Webpack based starter kit for quickly starting web app p
 
 Variable | Description
 :------- | :----------
-firebase\_url | Optional Firebase server to listen to, will get added to the `app` prop at the top level container.
+cookie\_key | Key used to serialize cookies for safe API token storage.
+firebase\_url | Firebase server to listen to, will maintain people's deletion states.
+firebase\_uid | Firebase UID to auth into DB
+firebase\_secret | Firebase secret to auth into DB
 
 
 ```bash
@@ -25,12 +28,6 @@ Start development server:
 
 ```bash
 $ npm run start:dev
-```
-
-Start with firebase:
-
-```bash
-$ npm run firebase_url="XXX" start:dev
 ```
 
 Start production server:

@@ -20,10 +20,6 @@ button {
 }
 
 input {
-  height: 20px;
-  padding: 0px 10px;
-  -webkit-appearance: none;
-  border: none;
   background-color: transparent;
   &[type='checkbox'] {
     position: relative;
