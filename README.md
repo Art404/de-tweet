@@ -1,8 +1,6 @@
-<!-- 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Art404/de-tweet/master/de-tweet.png" />
+  <img src="https://raw.githubusercontent.com/Art404/de-tweet/master/wireframe.png" />
 </p>
--->
 
 # de-tweet
 
